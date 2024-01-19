@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   background-image:url(background.jpg);
+}
+
+nav {
+    height: 60px;
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px; 
+    position: fixed;
+    width: 99%;
+
+}
+
+.catagories {
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.catagories:hover {
+    transition: ease-in-out;
+    transition-duration: 3s;
+    text-decoration: underline;
+}
+span>i {
+    font-size: 25px;
+    color: ghostwhite;
+    margin-right: 5px;
+}
+
+
+i {
+    color: ghostwhite;
+}
+nav>div>img {
+    height: 40px;
+    width: 40px;
+}
+nav>span {
+    font-size: 25px;
+    color: ghostwhite;
+}
+.header {
+    width: 100%;
+    height: 600px;
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.parent{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    width: 300px;
+    height: 375px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.box_img{
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+    border: solid blue;
+}
+.box_title{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.box_desc{
+    display: block;
+    font-size: 12px;
+}
+.box>div{
+    padding: 10px;
+}
+.check_Out{
+    height: 40px;
+    width: 40px;
+    background-color: plum;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+}
+.box_price{
+    background-color: plum;
+    color: black;
+    padding: 3px 12px;
+    position: absolute;
+    top: 16px;
+}
